@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --dark: #34495E;
+    --light: #ffffff;
+    --success: #0ABF30;
+    --error: #E24D4C;
+    --warning: #E9BD0C;
+    --info: #3498DB;
+    --cross: #8a8ca7;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    border: 2px solid rgb(112, 112, 112);
+    border-radius: 6px;
+}
+
+body {
+    font-size: 1.2rem;
+    min-height: 100vh;
+    background: rebeccapurple;
+}
+
+
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    opacity: 0.8;
+
+    margin-top: 6px;
+    display: inline-block;
+
+}
+
+.copy {
+    float: right;
+    margin-right: 5px;
+    margin-top: 11px;
+    font-size: 2rem;
+}
+
+.copy:hover {
+    cursor: pointer;
+    font-weight: 800;
+
+}
+
+.container.flex {
+    position: relative;
+    width: 700px;
+    height: 450px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    flex-direction: column;
+
+    padding-block: 50px;
+    gap: 20px;
+
+}
+
+.password {
+    width: 600px;
+    height: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.password_length {
+    width: 500px;
+    justify-content: space-between;
+    align-items: start;
+    height: 21.6px;
+
+}
+
+
+#slider_value {
+    width: 40px;
+    float: right;
+    text-align: right;
+
+}
+
+.uppercase {
+    height: 21.6px;
+    width: 500px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.uppercase label {
+    float: left;
+}
+
+.uppercase input {
+    float: right;
+}
+
+.lowercase {
+    height: 21.6px;
+    width: 500px;
+}
+
+.lowercase label {
+    float: left;
+}
+
+.lowercase input {
+    float: right;
+}
+
+
+.generate button {
+    padding: 8px 16px;
+    font-size: 1.6rem;
+    outline: none;
+    border-radius: 4px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    background: var(--light);
+    color: black;
+    font-weight: 500;
+    font-family: inherit;
+}
